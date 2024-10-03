@@ -1,0 +1,359 @@
+﻿@using ToyStore.Models;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> @ViewBag.Title | Bandai Prenium</title>
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.scrollUp.min.js"></script>
+    <script src="~/Scripts/price-range.js"></script>
+    <script src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <link rel="icon" href="~/Assets/Images/home/logo.png" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/prettyPhoto.css" rel="stylesheet" />
+    <link href="~/Content/price-range.css" rel="stylesheet" />
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/Content/mainshop.css" rel="stylesheet" />
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <link href="~/Content/owlcarousel/assets/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <script src="~/Content/owlcarousel/owl.carousel.js"></script>
+    <script src="~/Content/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/Swiper/swiper-bundle.min.js"></script>
+    <link href="~/Content/Swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <style>
+        .banner {
+            width: 90%;
+            height: 200px;
+        }
+
+        .img-detail {
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!--header-->
+        <div class="header_top">
+            <!--header_top-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="contactinfo" style="width: 700px">
+                            <ul class="nav nav-pills">
+                                <li><a href="#"><i class="fa fa-envelope"></i> anthanh14052908@gmail.com</a></li>
+                                <li><a href="#"><i class="fa fa-phone"></i> +84 378338464</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="pull-right">
+                            <ul class="nav navbar-nav">
+                                @if (Session["Taikhoan"] != null)
+                                {
+                                    <li>
+                                        <a href="@Url.Action("Information", "User")">
+                                            <i class="fa fa-user"></i>&nbsp;@(User.Identity.IsAuthenticated ? HttpContext.Current.User.Identity.Name: "Tài khoản")
+                                        </a>
+                                    </li>
+                                    <li style="float: right;">
+                                        <a href="@Url.Action("SignOut", "User")">
+                                            <i class="fa fa-sign-in"> Đăng Xuất</i>
+                                        </a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li>
+                                        <a href="@Url.Action("DangNhap", "User")">
+                                            <i class="fa fa-lock"> Đăng nhập</i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("DangKy", "User")">
+                                            <i class="fa fa-sign-in"> Đăng Ký</i>
+                                        </a>
+                                    </li>
+                                }
+                                @*<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>*@
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header_top-->
+
+        <div class="header-middle">
+            <!--header-middle-->
+            <div class="container">
+                <div class="row row-top">
+                    <div class="col-md-3 clearfix">
+                        <div class="logo pull-left">
+                            <a href="@Url.Action("Index", "ToyStore")">
+                                <img src="@Url.Content("~/Assets/Images/home/logo.png")" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="search_box pull-left">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="bg-header-nav hidden-xs hidden-sm">
+                                        <div>
+                                            <div class="row row-noGutter-2">
+                                                <nav class="header-nav">
+                                                    <ul class="item_big">
+
+                                                        <li class="nav-item ">
+                                                            @Html.ActionLink("ALL VANS", "Products", "ToyStore")
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            <a class="a-img" href="@Url.Action("Products", "ToyStore")">
+                                                                <span>SHOES</span><i class="fa fa-caret-down"></i>
+                                                            </a>
+                                                            <ul class="item_small hidden-sm hidden-xs">
+
+                                                                @Html.Action("DongSP", "ToyStore")
+
+                                                            </ul>
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            <a class="a-img" href="#">
+                                                                <span>NEW ARRIVALS</span>
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            <a class="a-img" href="@Url.Action("Products", "ToyStore")">
+                                                                <span>COLLECTIONS</span><i class="fa fa-caret-down"></i>
+                                                            </a>
+                                                            <ul class="item_small hidden-sm hidden-xs">
+
+                                                                @Html.Action("PhanLoai", "ToyStore")
+
+                                                            </ul>
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            <a class="a-img" href="#">
+                                                                <span>SALE OFF</span>
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            <a class="a-img" href="#">
+                                                                <span>SIZE CHART</span>
+                                                            </a>
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            @Html.ActionLink("ABOUT US", "Contact", "ToyStore")
+                                                        </li>
+
+                                                        <li class="nav-item ">
+                                                            @Html.ActionLink("LATEST VANS NEWS", "News", "ToyStore")
+                                                        </li>
+
+
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 clearfix">
+                        <div class="shop-menu clearfix pull-right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="@Url.Action("DonDatHang", "User")"><i class="fa fa-crosshairs"></i> Đơn Mua</a></li>
+                                <li>@Html.Action("GiohangPartial", "GioHang")</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/header-middle-->
+        <!--<div class="header-bottom">-->
+        <!--header-bottom-->
+        <!--<div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+        <!--/header-bottom-->
+    </header><!--/header-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </section>    
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="new-letter a-center lazyload" data-src="//bizweb.dktcdn.net/100/140/774/themes/827866/assets/bg_footer.jpg?1698992142979" data-was-processed="true" style="background-image: url(&quot;//bizweb.dktcdn.net/100/140/774/themes/827866/assets/bg_footer.jpg?1698992142979&quot;);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 padding_">
+                            <div class="letter-left heading">
+                                <h3>Nhập email</h3>
+                                <span>Để nhận tin tức khuyến mãi từ cửa hàng của chúng tôi</span>
+                            </div>
+                            <form action="https://sapo.us19.list-manage.com/subscribe/post?u=2887dcda77021868cccd236ea&amp;id=7ace19f37b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+                                <div class="input-group">
+                                    <input type="email" autocomplete="off" class="form-control" value="" placeholder="Nhập email của bạn" name="EMAIL" id="mail">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary button_gradient" name="subscribe" id="subscribe" type="submit" title="Gửi ngay">Gửi ngay</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-footer">
+            <div class="section top-footer mid-footer margin-bottom-30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                            <div class="widget-ft">
+                                <h4 class="title-menu">
+                                    <a role="button">
+                                        Trải Nghiệm VANS Store Ngay Tại Nhà
+                                    </a>
+                                </h4>
+                                <div>
+                                    <div class="list-menu">
+                                        <div class="widget-ft wg-logo">
+
+                                            <div class="item">
+                                                <h4 class="title-menu4 icon_none_first">
+                                                    <a>Hệ Thống VANS Online</a>
+                                                </h4>
+                                                <ul class="contact contact_x">
+
+                                                    <li>
+                                                        <span class="txt_content_child">
+                                                            <span>Địa chỉ:</span>
+                                                            Hồ Chí Minh
+                                                        </span>
+                                                    </li>
+
+
+                                                    <li class="sdt">
+                                                        <span> Hotline:</span>
+                                                        <a href="tel:0866956907">0866956907</a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="widget-ft first">
+                                        <h4 class="title-menu">
+                                            <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false" data-target="#collapseListMenu01" aria-controls="collapseListMenu01">
+                                                Về Chúng Tôi <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </h4>
+                                        <div class="collapse" id="collapseListMenu01">
+                                            <ul class="list-menu">
+
+                                                <li class="li_menu"><a href="/lich-su-cua-vans">About Us</a></li>
+
+                                                <li class="li_menu"><a href="/size-giay-vans">Size Chart</a></li>
+
+                                                <li class="li_menu"><a href="/danh-sach-cac-store-vans-chinh-thuc-tai-viet-nam-2020">Hệ Thống Cửa Hàng</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="widget-ft first">
+                                        <h4 class="title-menu">
+                                            <a role="button" class="collapsed" data-toggle="collapse" aria-expanded="false" data-target="#collapseListMenu02" aria-controls="collapseListMenu02">
+                                                Chính Sách <i class="fa fa-plus" aria-hidden="true"></i>
+                                            </a>
+                                        </h4>
+                                        <div class="collapse" id="collapseListMenu02">
+                                            <ul class="list-menu">
+
+                                                <li class="li_menu"><a href="/chinh-sach">Chính sách thanh toán</a></li>
+
+                                                <li class="li_menu"><a href="/chinh-sach-doi-hang-va-bao-hanh-tai-vans-viet-nam">Chính sách đổi trả</a></li>
+
+                                                <li class="li_menu"><a href="/chinh-sach-doi-hang-va-bao-hanh-tai-vans-viet-nam">Chính sách bảo hành</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section copyright clearfix">
+            <div class="container">
+                <div class="inner clearfix">
+                    <div class="row tablet">
+                        <div id="copyright" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 a-center fot_copyright">
+
+                            <span class="wsp">
+                                <span class="mobile">© Bản quyền thuộc về <b>VANS Việt Nam</b><span class="hidden-xs"> | </span></span>
+                                <span class="opacity1">Cung cấp bởi</span>
+
+                                <a href="https://vansvietnam.com.vn/" rel="nofollow" title="VANS" target="_blank">VANS</a>
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer><!--/Footer-->
+</body>
+</html>

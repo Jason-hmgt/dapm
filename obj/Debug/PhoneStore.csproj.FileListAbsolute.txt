@@ -1,0 +1,128 @@
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\ToyStore.dll.config
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\ToyStore.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\ToyStore.pdb
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\csc.exe
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\csc.exe.config
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\csc.rsp
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\csi.exe
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\csi.rsp
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.AppContext.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.Collections.Immutable.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.IO.FileSystem.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\vbc.exe
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\vbc.exe.config
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\vbc.rsp
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\VBCSCompiler.exe
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\roslyn\VBCSCompiler.exe.config
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Antlr3.Runtime.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\EntityFramework.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\EntityFramework.SqlServer.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Microsoft.Web.Infrastructure.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Newtonsoft.Json.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\PagedList.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\PagedList.Mvc.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Helpers.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Mvc.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Optimization.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Razor.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.Deployment.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.Razor.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\WebGrease.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\EntityFramework.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\EntityFramework.SqlServer.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\PagedList.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\PagedList.Mvc.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Helpers.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Mvc.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Optimization.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.Razor.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.Deployment.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\System.Web.WebPages.Razor.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Newtonsoft.Json.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Antlr3.Runtime.pdb
+E:\Tài liệu học tập\HongKhai\PhoneStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Tài liệu học tập\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+E:\Tài liệu học tập\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+E:\Tài liệu học tập\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.CopyComplete
+E:\Tài liệu học tập\HongKhai\PhoneStore\obj\Debug\ToyStore.dll
+E:\Tài liệu học tập\HongKhai\PhoneStore\obj\Debug\ToyStore.pdb
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\ToyStore.dll.config
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\ToyStore.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\ToyStore.pdb
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\csc.exe
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\csc.exe.config
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\csc.rsp
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\csi.exe
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\csi.rsp
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.AppContext.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\vbc.exe
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\vbc.exe.config
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\vbc.rsp
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Antlr3.Runtime.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\EntityFramework.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\EntityFramework.SqlServer.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Newtonsoft.Json.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\PagedList.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\PagedList.Mvc.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Helpers.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Mvc.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Optimization.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Razor.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\WebGrease.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\EntityFramework.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\EntityFramework.SqlServer.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\PagedList.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\PagedList.Mvc.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Helpers.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Mvc.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Optimization.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.Razor.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Newtonsoft.Json.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Antlr3.Runtime.pdb
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.AssemblyReference.cache
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.CoreCompileInputs.cache
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\obj\Debug\PhoneStore.csproj.Up2Date
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\obj\Debug\ToyStore.dll
+C:\Users\hmgth\Downloads\HongKhai\HongKhai\PhoneStore\obj\Debug\ToyStore.pdb

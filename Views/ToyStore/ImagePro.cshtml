@@ -1,0 +1,16 @@
+﻿<div class="owl_image_thumb_item hidden-md hidden-sm hidden-xs">
+    <div class="product_image_list owl-carousel not-owl owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+            <div class="owl-stage" style="transform: translate3d(-74px, 0px, 0px); transition: all 0.25s ease 0s; width: 374px;">
+                @foreach (var item in Model)
+                {
+                <div class="owl-item" style="width: 69.667px; margin-right: 5px;">
+                    <div class="item item_image" data-image="@item.img">
+                        <img class="lazyload loaded" src="~/Assets/Images/sanPham/@item.img" data-was-processed="true">
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

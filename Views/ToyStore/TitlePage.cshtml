@@ -1,0 +1,28 @@
+﻿<div class="breadcrumb_background margin-bottom-40">
+    <div class="title_full">
+        <div class="container a-center">
+            <p class="title_page" id="title_page_1"></p>
+        </div>
+    </div>
+    <section class="bread-crumb">
+        <span class="crumb-border"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 a-center">
+                    <ul class="breadcrumb">
+                        <li class="home">
+                            <a href="/"><span>Trang chủ</span></a>
+                        </li>
+                        <li><strong><span id="title_page_2"> </span></strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script>
+    let title_1 = document.getElementById("title_page_1").innerText = document.title;
+    document.getElementById("title_page_1").innerText = title_1.replace(" | Bandai Prenium", "");
+    let title_2 = document.getElementById("title_page_2").innerText = document.title;
+    document.getElementById("title_page_2").innerText = title_2.replace(" | Bandai Prenium", "");
+</script>

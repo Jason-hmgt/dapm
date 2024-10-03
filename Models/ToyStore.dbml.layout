@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 9.75" name="ToyStore">
+  <DataContextMoniker Name="/ToyStoreDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8c54488a-4c1b-43a6-acfe-6a428ba4adc3" absoluteBounds="3.5, 2.375, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ToyStoreDataContext/AdCover" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0a53293-e412-49f0-b472-0450b81078a1" absoluteBounds="3.515, 2.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a88a34af-88ce-4b70-b443-9dc1e7086da2" absoluteBounds="8.75, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ToyStoreDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="96752903-5b72-4066-a93f-0d2f50074b25" absoluteBounds="8.765, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1674d97d-aba5-4d99-bdf3-ca20431d67f9" absoluteBounds="9, 0.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/ToyStoreDataContext/ChiTietDatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4628aa45-7ab9-4aa9-a00a-6c3a05e85013" absoluteBounds="9.015, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="95c809ed-a095-4ced-84a9-bbe3df9037e6" absoluteBounds="6.25, 7, 2, 2.5401025390624996">
+      <DataClassMoniker Name="/ToyStoreDataContext/DonDatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c957f7e6-45cc-4a98-8dc7-e38fee438b8f" absoluteBounds="6.265, 7.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c339a17d-6a96-4021-a5d4-bc8295a1f55d" absoluteBounds="3.5, 4.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ToyStoreDataContext/DongPL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bc687aee-7bef-4ded-a744-353a310e4d48" absoluteBounds="3.515, 4.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6adcd47-6365-4d3e-a571-c2fd06875df2" absoluteBounds="0.75, 3.5, 2, 1.193992513020834">
+      <DataClassMoniker Name="/ToyStoreDataContext/DongSP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="111f8a8c-f22e-4a8d-bb2b-ed34216f004a" absoluteBounds="0.765, 3.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="91b40db5-9bb6-48f8-bb4e-54e4ccb4b7db" absoluteBounds="9, 4, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/ToyStoreDataContext/HinhAnh_SP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="03e685f1-2b6e-4eb8-9b7c-6ba9267a4c41" absoluteBounds="9.015, 4.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="537fd64d-adb9-4248-9584-a57ac7547d2b" absoluteBounds="3.5, 7.125, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/ToyStoreDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19e33043-e6f2-466a-a18f-84b9aaa0c279" absoluteBounds="3.515, 7.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a40adc72-94cd-4668-b4e7-7b59abb6e3d1" absoluteBounds="6.25, 3.5, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/ToyStoreDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3549de35-64ae-4497-bb1d-bd236154daa2" absoluteBounds="6.265, 3.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 7); (7.25 : 6.2901025390625); (8.5 : 6.2901025390625); (8.5 : 1.76044840494792); (9 : 1.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/DonDatHang/DonDatHang_ChiTietDatHang" />
+      <nodes>
+        <classShapeMoniker Id="95c809ed-a095-4ced-84a9-bbe3df9037e6" />
+        <classShapeMoniker Id="1674d97d-aba5-4d99-bdf3-ca20431d67f9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.63064697265625); (3.5 : 3.63064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/DongSP/DongSP_AdCover" />
+      <nodes>
+        <classShapeMoniker Id="e6adcd47-6365-4d3e-a571-c2fd06875df2" />
+        <classShapeMoniker Id="8c54488a-4c1b-43a6-acfe-6a428ba4adc3" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 4.69399251302083); (1.75 : 5.29014372916667); (3.5 : 5.29014372916667)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/DongSP/DongSP_DongPL" />
+      <nodes>
+        <classShapeMoniker Id="e6adcd47-6365-4d3e-a571-c2fd06875df2" />
+        <classShapeMoniker Id="c339a17d-6a96-4021-a5d4-bc8295a1f55d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.29890055338542); (6.25 : 8.29890055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/KhachHang/KhachHang_DonDatHang" />
+      <nodes>
+        <classShapeMoniker Id="537fd64d-adb9-4248-9584-a57ac7547d2b" />
+        <classShapeMoniker Id="95c809ed-a095-4ced-84a9-bbe3df9037e6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.25 : 3.5); (7.25 : 2.23442510742187); (8.41666666666667 : 2.23442510742187 : JumpStart); (8.58333333333333 : 2.23442510742187 : JumpEnd); (9 : 2.23442510742187)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/SanPham/SanPham_ChiTietDatHang" />
+      <nodes>
+        <classShapeMoniker Id="a40adc72-94cd-4668-b4e7-7b59abb6e3d1" />
+        <classShapeMoniker Id="1674d97d-aba5-4d99-bdf3-ca20431d67f9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 4.69314697265625); (8.41666666666667 : 4.69314697265625 : JumpStart); (8.58333333333333 : 4.69314697265625 : JumpEnd); (9 : 4.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/SanPham/SanPham_HinhAnh_SP" />
+      <nodes>
+        <classShapeMoniker Id="a40adc72-94cd-4668-b4e7-7b59abb6e3d1" />
+        <classShapeMoniker Id="91b40db5-9bb6-48f8-bb4e-54e4ccb4b7db" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.19314697265625); (6.25 : 5.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/DongPL/DongPL_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="c339a17d-6a96-4021-a5d4-bc8295a1f55d" />
+        <classShapeMoniker Id="a40adc72-94cd-4668-b4e7-7b59abb6e3d1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.13064697265625); (6.25 : 4.13064697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ToyStoreDataContext/DongSP/DongSP_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="e6adcd47-6365-4d3e-a571-c2fd06875df2" />
+        <classShapeMoniker Id="a40adc72-94cd-4668-b4e7-7b59abb6e3d1" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

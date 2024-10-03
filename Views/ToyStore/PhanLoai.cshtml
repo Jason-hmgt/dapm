@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ToyStore.Models.DongPL>
+@foreach (var item in Model)
+{
+    <li style="text-transform:uppercase;">
+        <a href="@Url.Action("SPtheoLoai", "ToyStore", new { id = item.MaPL })">@item.TenPL</a>
+    </li>
+}
+
